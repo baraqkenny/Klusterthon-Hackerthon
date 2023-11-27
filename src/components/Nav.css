@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+.nav__container{
+    display: flex;
+    align-items: center;
+    
+    padding: 1rem 5rem;
+}
+
+.nav__logo__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.88rem;
+}
+
+.nav__content{
+    display: flex;
+    align-items: center;
+    margin-left: 14.81rem;
+    gap: 1rem;
+}
+
+.web__name{
+    text-decoration: none;
+    color: var(--secondary);
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.home{
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.about{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.contact{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+
+.nav__links{
+    display: flex;
+    gap: 1rem;
+    margin-left: 3.25rem;
+}
+
+.homepage__login__btn{
+    text-decoration: none;
+    padding: 0.625rem 1.25rem;
+    background-color: var(--white);
+    border-radius: 0.625rem;
+    border: 1px solid #00A8E8;
+    color: #00A8E8;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.homepage__signup__btn{
+    text-decoration: none;
+    padding: 0.625rem 1.25rem;
+    background-color: var(--secondary);
+    border: none;
+    border-radius: 0.625rem;
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 700;
+}

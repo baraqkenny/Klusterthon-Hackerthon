@@ -1,0 +1,157 @@
+:root{
+    --primary-color: #2B2B2B;
+    --Grey: #C3C0C0;
+    --secondary: #00A8E8;
+    --white: #FFF;
+    --foundation-blue-normal: #00A8E8;
+}
+
+.signup__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.signup__content{
+    width: 60%;
+    margin-top: 5rem;
+    margin-left: 5.31rem;
+}
+
+.signup__content h1{
+    color: var(--primary-color);
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.signup__content p {
+    color: #2B2B2B;
+    margin-top: 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.signup__form{
+    margin-top: 4.44rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.9rem;
+}
+
+.signup__form label{
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.signup__form input{
+    width: 19.25rem;
+    height: 3rem;
+    padding-left: 1rem;
+    border-radius: 0.1875rem;
+    border: 1px solid var(--Grey);
+}
+
+.signup__form select{
+    width: 20.4rem;
+    height: 3rem;
+    padding-left: 1rem;
+    border-radius: 0.1875rem;
+    border: 1px solid var(--Grey);
+}
+
+.signup__form option{
+    color: var(--white);
+    font-size: 0.625rem;
+    font-weight: 700;
+    border-radius: 0rem 0rem 0.1875rem 0.1875rem;
+    background: var(--foundation-blue-normal);
+}
+
+.signup__form option:hover{
+    color: #000;
+    background: green;
+}
+
+.check{
+    display: flex;
+    align-items: center;
+    margin-top: 0.81rem;
+    gap: 0.69rem;
+}
+.checkbox{
+    width: 0.8125rem;
+    height: 0.75rem;
+    border-radius: 0.125rem;
+    border: 1px solid #C3C0C0;
+}
+
+.signup_links{
+    margin-top: 3.25rem;
+    display: flex;
+    flex-direction: column;
+    width: 20.5rem;
+}
+
+.signup_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 3.25rem;
+    width: 20.5rem;
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 700;
+    height: 2rem;
+    border-radius: 0.1875rem;
+    background-color: var(--secondary);
+    border: none;
+    text-align: center;
+}
+
+.google__signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-decoration: none;
+    margin-top: 1.06rem;
+    width: 20.5rem;
+    height: 2rem;
+    background-color: var(--white);
+    border-radius: 0.1875rem;
+    border: 1px solid var(--Grey);
+    color: var(--primary-color);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.have__an__account {
+    margin-top: 2.25rem;
+    color: var(--primary-color);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.signin{
+    color: var(--secondary);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.signup__sidebar{
+    width: 40.4375%;
+    background: linear-gradient(171deg, #00A8E8 6.97%, #1F90E2 36.11%, #36A5D0 135.81%);
+    position: relative;
+}
+
+.web__logo__icon{
+    position: absolute;
+    left: 4.38rem;
+    top: 3.62rem;
+    width: 5.125rem;
+    height: 5.125rem;
+}
+

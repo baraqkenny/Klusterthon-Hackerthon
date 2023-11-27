@@ -1,0 +1,113 @@
+:root{
+    --primary-color: #2B2B2B;
+    --Grey: #C3C0C0;
+    --secondary: #00A8E8;
+    --white: #FFF;
+}
+
+.login__container{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
+.login__content{
+    width: 60%;
+    margin-top: 5rem;
+    margin-left: 5.31rem;
+}
+
+.login__content h1{
+    color: var(--primary-color);
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.login__content p {
+    margin-top: 1.5rem;
+    color: var(--primary-color);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5rem;
+}
+
+.email__labels{
+    color: var(--primary);
+    font-size: 1rem;
+    font-weight: 700; 
+}
+
+.password__labels{
+    margin-top: 1rem;
+    color: var(--primary);
+    font-size: 1rem;
+    font-weight: 700; 
+}
+
+.login__inputs{
+    margin-top: 1.06rem;
+    width: 19.25rem;
+    height: 3rem;
+    padding-left: 1rem;
+    border-radius: 0.1875rem;
+    border: 1px solid var(--Grey);
+}
+
+.login__links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 20.5rem;
+}
+
+
+ .login__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 700;
+    height: 2rem;
+    border-radius: 0.1875rem;
+    background-color: var(--secondary);
+    border: none;
+    text-align: center;
+}
+
+.google__login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-decoration: none;
+    margin-top: 1.06rem;
+    height: 2rem;
+    background-color: var(--white);
+    border-radius: 0.1875rem;
+    border: 1px solid var(--Grey);
+    color: var(--primary-color);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.login__sidebar{
+    width: 40.4375%;
+    background: linear-gradient(171deg, #00A8E8 6.97%, #1F90E2 36.11%, #36A5D0 135.81%);
+    position: relative;
+}
+
+.weblogo__login{
+    position: absolute;
+    left: 4.38rem;
+    top: 3.62rem;
+    width: 5.125rem;
+    height: 5.125rem;
+}

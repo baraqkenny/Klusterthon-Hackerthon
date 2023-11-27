@@ -1,0 +1,98 @@
+.about__content__wrapper{
+    margin: 6rem 0 0 8.25rem; 
+}
+
+.about__content__one h1{
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+.about__content__one p {
+    margin-top: 1.25rem;
+    width: 36.5rem;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.about__content__two{
+    margin-top: 5.38rem;
+}
+
+.about__content__two h2{
+    color: var(--primary);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.our__values{
+    display: flex;
+    align-items: center;
+    gap: 3.12rem;
+}
+
+.empowerment{
+    margin-top: 2rem;
+    text-align: center; 
+    width: 20.625rem;
+    padding: 1.875rem 0.75rem 1.4375rem 0.75rem;
+    border-radius: 0.625rem;
+    border: 1px solid #00A8E8;
+}
+
+.community{
+    margin-top: 2rem;
+    text-align: center; 
+    width: 20.625rem;
+    padding: 1.875rem 0.75rem 1.4375rem 0.75rem;
+    border-radius: 0.625rem;
+    border: 1px solid #00A8E8;
+}
+
+.innovation{
+    margin-top: 2rem;
+    text-align: center; 
+    width: 20.625rem;
+    padding: 1.875rem 0.75rem 1.4375rem 0.75rem;
+    border-radius: 0.625rem;
+    border: 1px solid #00A8E8;
+}
+
+.our__values h3{
+    color: var(--primary);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.our__values p {
+    margin-top: 2.06rem;
+}
+
+.about__content__footer{
+    margin-top: 12rem;
+    padding-bottom: 2rem;
+}
+
+
+.about__footer__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8.75rem;
+    margin-top: 2.19rem;
+}
+
+.about__footer__link{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.about__content__footer h3{
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+}

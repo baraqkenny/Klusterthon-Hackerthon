@@ -1,0 +1,72 @@
+
+
+.contact__page__container{
+    margin: 6rem 2rem 0 8.25rem;
+    display: flex; 
+    /* justify-content: space-between; */
+    overflow-x: hidden;
+}
+
+
+
+.contact__content__one h1{
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.contact__content__one p {
+    margin-top: 1.25rem;
+    width: 31.25rem;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.web__contact{
+    display: flex;
+}
+
+.dose__mail{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    width: 29.75rem;
+    height: 28.5rem;
+    border-radius: 0.625rem;
+    border: 1px solid #00A8E8;
+    padding: 2.06rem 3.62rem;
+}
+
+.contact__form label{
+    margin-top: 1rem;
+}
+
+.contact__form input{
+    
+    width: 29.6rem;
+    height: 3rem;
+    border-radius: 0.1875rem;
+border: 1px solid var(--Grey);
+}
+
+.contact__form textarea{
+    border: 1px solid var(--Grey);
+}
+
+.send__message{
+    margin-top: 2rem;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.625rem;
+    background: #00A8E8;
+    color: #FFF;
+font-size: 0.875rem;
+font-weight: 700;
+}
